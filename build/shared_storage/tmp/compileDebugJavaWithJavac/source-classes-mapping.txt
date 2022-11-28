@@ -1,0 +1,2 @@
+io/lakscastro/sharedstorage/BuildConfig.java
+ io.lakscastro.sharedstorage.BuildConfig

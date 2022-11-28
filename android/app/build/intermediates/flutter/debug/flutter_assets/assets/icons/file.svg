@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48" width="48px" height="48px">
+<defs>
+<linearGradient id="linear0" gradientUnits="userSpaceOnUse" x1="102.22892" y1="55.437752" x2="120.400002" y2="37.26667" gradientTransform="matrix(0.27907,0,0,0.27907,0,0)">
+<stop offset="0" style="stop-color:rgb(100%,100%,100%);stop-opacity:1;"/>
+<stop offset="1" style="stop-color:rgb(92.54902%,94.117647%,94.509804%);stop-opacity:1;"/>
+</linearGradient>
+</defs>
+<g id="surface195940970">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(94.509804%,76.862746%,5.882353%);fill-opacity:1;" d="M 39 16 L 39 41 C 39 42.105469 38.105469 43 37 43 L 11 43 C 9.894531 43 9 42.105469 9 41 L 9 7 C 9 5.894531 9.894531 5 11 5 L 28 5 L 31 13 Z M 39 16 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear0);" d="M 28 5 L 28 14 C 28 15.105469 28.894531 16 30 16 L 39 16 Z M 28 5 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 32.5 24 L 15.5 24 C 15.222656 24 15 23.777344 15 23.5 L 15 22.5 C 15 22.222656 15.222656 22 15.5 22 L 32.5 22 C 32.777344 22 33 22.222656 33 22.5 L 33 23.5 C 33 23.777344 32.777344 24 32.5 24 Z M 32.5 24 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 30.5 28 L 15.5 28 C 15.222656 28 15 27.777344 15 27.5 L 15 26.5 C 15 26.222656 15.222656 26 15.5 26 L 30.5 26 C 30.777344 26 31 26.222656 31 26.5 L 31 27.5 C 31 27.777344 30.777344 28 30.5 28 Z M 30.5 28 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 32.5 32 L 15.5 32 C 15.222656 32 15 31.777344 15 31.5 L 15 30.5 C 15 30.222656 15.222656 30 15.5 30 L 32.5 30 C 32.777344 30 33 30.222656 33 30.5 L 33 31.5 C 33 31.777344 32.777344 32 32.5 32 Z M 32.5 32 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 30.5 36 L 15.5 36 C 15.222656 36 15 35.777344 15 35.5 L 15 34.5 C 15 34.222656 15.222656 34 15.5 34 L 30.5 34 C 30.777344 34 31 34.222656 31 34.5 L 31 35.5 C 31 35.777344 30.777344 36 30.5 36 Z M 30.5 36 "/>
+</g>
+</svg>

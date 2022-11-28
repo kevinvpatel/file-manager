@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/app/intermediates/incremental/mergeDebugResources/stripped.dir/layout/empty_view.xml",
+        "source": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/res/layout/empty_view.xml"
+    },
+    {
+        "merged": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/app/intermediates/incremental/mergeDebugResources/stripped.dir/layout/widget_layout.xml",
+        "source": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/res/layout/widget_layout.xml"
+    },
+    {
+        "merged": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/app/intermediates/incremental/mergeDebugResources/stripped.dir/layout/listview_item.xml",
+        "source": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/res/layout/listview_item.xml"
+    }
+]

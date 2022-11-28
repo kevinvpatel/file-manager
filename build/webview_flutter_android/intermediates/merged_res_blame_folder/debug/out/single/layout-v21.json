@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/webview_flutter_android/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/onlymac/.gradle/caches/transforms-2/files-2.1/5fffcebb1f8206aae72fffcd53106dc0/core-1.6.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/webview_flutter_android/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/onlymac/.gradle/caches/transforms-2/files-2.1/5fffcebb1f8206aae72fffcd53106dc0/core-1.6.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/webview_flutter_android/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/onlymac/.gradle/caches/transforms-2/files-2.1/5fffcebb1f8206aae72fffcd53106dc0/core-1.6.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/webview_flutter_android/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/onlymac/.gradle/caches/transforms-2/files-2.1/5fffcebb1f8206aae72fffcd53106dc0/core-1.6.0/res/layout-v21/notification_template_custom_big.xml"
+    }
+]

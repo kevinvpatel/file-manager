@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/path_provider/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
+        "source": "/Users/onlymac/.gradle/caches/transforms-2/files-2.1/5fffcebb1f8206aae72fffcd53106dc0/core-1.6.0/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/path_provider/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/onlymac/.gradle/caches/transforms-2/files-2.1/5fffcebb1f8206aae72fffcd53106dc0/core-1.6.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/path_provider/intermediates/res/merged/debug/layout/custom_dialog.xml",
+        "source": "/Users/onlymac/.gradle/caches/transforms-2/files-2.1/5fffcebb1f8206aae72fffcd53106dc0/core-1.6.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/path_provider/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
+        "source": "/Users/onlymac/.gradle/caches/transforms-2/files-2.1/5fffcebb1f8206aae72fffcd53106dc0/core-1.6.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/path_provider/intermediates/res/merged/debug/layout/notification_action.xml",
+        "source": "/Users/onlymac/.gradle/caches/transforms-2/files-2.1/5fffcebb1f8206aae72fffcd53106dc0/core-1.6.0/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/path_provider/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/onlymac/.gradle/caches/transforms-2/files-2.1/5fffcebb1f8206aae72fffcd53106dc0/core-1.6.0/res/layout/notification_template_part_time.xml"
+    }
+]

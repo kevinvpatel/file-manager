@@ -1,0 +1,10 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/techmates/filemanager/databinding/EmptyViewBinding.java
+ com.techmates.filemanager.databinding.EmptyViewBinding
+com/techmates/filemanager/BuildConfig.java
+ com.techmates.filemanager.BuildConfig
+com/techmates/filemanager/databinding/WidgetLayoutBinding.java
+ com.techmates.filemanager.databinding.WidgetLayoutBinding
+com/techmates/filemanager/databinding/ListviewItemBinding.java
+ com.techmates.filemanager.databinding.ListviewItemBinding

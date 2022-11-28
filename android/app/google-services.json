@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "353864294113",
+    "project_id": "file-manager-50d6e",
+    "storage_bucket": "file-manager-50d6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353864294113:android:951ee2394f5df83f70e1a0",
+        "android_client_info": {
+          "package_name": "com.techmates.filemanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "353864294113-tdeq35tjiu6tob6h6f5hegvr9m6te98s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techmates.filemanager",
+            "certificate_hash": "c0fd037af32224d56baed8c58413e320ed03d75f"
+          }
+        },
+        {
+          "client_id": "353864294113-eefjfj4h4n9b1dupl2fbgd7dmdkvojfm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABdt-wpFZ1RwLx4zGrUWTlLMOSQQHDvNA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "353864294113-eefjfj4h4n9b1dupl2fbgd7dmdkvojfm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

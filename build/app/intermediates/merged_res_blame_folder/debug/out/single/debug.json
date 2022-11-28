@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/app/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/app/intermediates/res/merged/debug/drawable_rounded_edge.xml.flat",
+        "source": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/res/drawable/rounded_edge.xml"
+    },
+    {
+        "merged": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/app/intermediates/res/merged/debug/drawable_layout_background.xml.flat",
+        "source": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/res/drawable/layout_background.xml"
+    },
+    {
+        "merged": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/app/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/app/intermediates/res/merged/debug/mipmap-hdpi_logo.png.flat",
+        "source": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/res/mipmap-hdpi/logo.png"
+    },
+    {
+        "merged": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/app/intermediates/res/merged/debug/xml_widget_info.xml.flat",
+        "source": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/res/xml/widget_info.xml"
+    },
+    {
+        "merged": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/app/intermediates/res/merged/debug/layout_empty_view.xml.flat",
+        "source": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/res/layout/empty_view.xml"
+    },
+    {
+        "merged": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/app/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/app/intermediates/res/merged/debug/drawable-v21_launch_background.xml.flat",
+        "source": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/res/drawable-v21/launch_background.xml"
+    },
+    {
+        "merged": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/app/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/app/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/app/intermediates/res/merged/debug/drawable_layout_title_bar.xml.flat",
+        "source": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/res/drawable/layout_title_bar.xml"
+    },
+    {
+        "merged": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/app/intermediates/res/merged/debug/layout_listview_item.xml.flat",
+        "source": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/res/layout/listview_item.xml"
+    },
+    {
+        "merged": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/app/intermediates/res/merged/debug/drawable_logo.png.flat",
+        "source": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/res/drawable/logo.png"
+    },
+    {
+        "merged": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/app/intermediates/res/merged/debug/layout_widget_layout.xml.flat",
+        "source": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/res/layout/widget_layout.xml"
+    },
+    {
+        "merged": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/app/intermediates/res/merged/debug/drawable_ic_bell.png.flat",
+        "source": "/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/res/drawable/ic_bell.png"
+    }
+]

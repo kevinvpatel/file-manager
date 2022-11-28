@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48" width="48px" height="48px">
+<defs>
+<radialGradient id="radial0" gradientUnits="userSpaceOnUse" cx="157.509003" cy="147.891327" fx="157.509003" fy="147.891327" r="173.601746" gradientTransform="matrix(0.27907,0,0,0.27907,0,0)">
+<stop offset="0" style="stop-color:rgb(61.960787%,43.529412%,85.09804%);stop-opacity:1;"/>
+<stop offset="0.173" style="stop-color:rgb(66.666669%,45.09804%,78.039217%);stop-opacity:1;"/>
+<stop offset="0.522" style="stop-color:rgb(79.215688%,49.803922%,59.215689%);stop-opacity:1;"/>
+<stop offset="1" style="stop-color:rgb(98.823529%,56.862748%,30.19608%);stop-opacity:1;"/>
+</radialGradient>
+<radialGradient id="radial1" gradientUnits="userSpaceOnUse" cx="30.211081" cy="62.224579" fx="30.211081" fy="62.224579" r="129.225754" gradientTransform="matrix(0.999999,0,0,0.999999,0,0)">
+<stop offset="0" style="stop-color:rgb(0%,0%,0%);stop-opacity:1;"/>
+<stop offset="0.531" style="stop-color:rgb(0%,0%,0%);stop-opacity:1;"/>
+<stop offset="1" style="stop-color:rgb(0%,0%,0%);stop-opacity:1;"/>
+</radialGradient>
+<filter id="alpha" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
+  <feColorMatrix type="matrix" in="SourceGraphic" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+</filter>
+<mask id="mask0">
+  <g filter="url(#alpha)">
+<rect x="0" y="0" width="48" height="48" style="fill:rgb(0%,0%,0%);fill-opacity:0.05;stroke:none;"/>
+  </g>
+</mask>
+<image id="image20170364" width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAArklEQVRoge3XMQoCMRRF0YsrENyA+7ER3aC27kXB0n7EZcRChMAMmolg8uEeSP/e/0zCgCRJkiT9bg8MwBXYNM5S5Q6k7ByAZdNEM6WJ8wC2LUPNMVXgfU7Aql20Mp8KhNjGtwLdb6O0QLfbmFOgy5uqpkACLsCiQd6R2gIJWDfIO1Ib/kzgDRwJ+g2EvoXCvgNdTj0Xcuq5kFPPDXT8ypbY8Zr4jaB/ZJIkSfqzJzbysZsdonLkAAAAAElFTkSuQmCC"/>
+<mask id="mask1">
+  <g filter="url(#alpha)">
+<rect x="0" y="0" width="48" height="48" style="fill:rgb(0%,0%,0%);fill-opacity:0.07;stroke:none;"/>
+  </g>
+</mask>
+<image id="image20170367" width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAA90lEQVRoge3XsU1DMRAG4I+QGjoqWAGmQIQJoEQgYAzmoKBhCCBD0NFQs0CyAKF4RImCKILv2Yq4T3qFm3v3+yxLJqWUUkoppfRfbQfWGuIKB3gPrFvNBWbf3xP227azvjuLADNMcNn3TweBtbZW1rt4wIvuWPUiMsBvTvCGGz9DFqsRAHZwj2fB06gVYC58GrUDsJhGyE3VIsDcCK84KinSMgDsKbxqWweY4LGkQMsAYxzqjtGftQgwxS1O8VFabFjcznrGuBbQ+FytCYTu+rIaEwjf9WWRE/hcWU9174ORnpqPdm7D3wMDnOG4dSMppZRSSmlDfAFnrCZIrj3nPwAAAABJRU5ErkJggg=="/>
+</defs>
+<g id="surface20170360">
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#radial0);" d="M 42 7 L 6 7 C 4.894531 7 4 7.894531 4 9 L 4 39 C 4 40.105469 4.894531 41 6 41 L 42 41 C 43.105469 41 44 40.105469 44 39 L 44 9 C 44 7.894531 43.105469 7 42 7 Z M 42 7 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#radial1);" d="M 7 13 L 41 13 L 41 38 L 7 38 Z M 7 13 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(68.627453%,30.588236%,38.82353%);fill-opacity:1;" d="M 39 7 L 35 7 L 37 10 L 35 13 L 39 13 L 41 10 Z M 39 7 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(68.627453%,30.588236%,38.82353%);fill-opacity:1;" d="M 30 7 L 26 7 L 28 10 L 26 13 L 30 13 L 32 10 Z M 30 7 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(68.627453%,30.588236%,38.82353%);fill-opacity:1;" d="M 21 7 L 17 7 L 19 10 L 17 13 L 21 13 L 23 10 Z M 21 7 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(68.627453%,30.588236%,38.82353%);fill-opacity:1;" d="M 12 7 L 8 7 L 10 10 L 8 13 L 12 13 L 14 10 Z M 12 7 "/>
+<use xlink:href="#image20170364" mask="url(#mask0)"/>
+<use xlink:href="#image20170367" mask="url(#mask1)"/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 19 33.066406 L 19 17.933594 C 19 17.1875 19.828125 16.746094 20.445312 17.15625 L 31.800781 24.726562 C 32.351562 25.09375 32.351562 25.90625 31.800781 26.273438 L 20.445312 33.84375 C 19.828125 34.253906 19 33.8125 19 33.066406 Z M 19 33.066406 "/>
+</g>
+</svg>

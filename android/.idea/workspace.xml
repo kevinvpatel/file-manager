@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="512e8d08-15d6-4699-acae-fcec26b91562" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.gradle/6.7/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.gradle/6.7/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.gradle/configuration-cache/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/techmates/filemanager/ServiceWidget.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/techmates/filemanager/WidgetProvider.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_bell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/layout_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/layout_title_bar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rounded_edge.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/empty_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/listview_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/calender.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/drawer/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/drawer/reminder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/drawer/signin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/drawer/signout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/icons/android.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/icons/black-pdf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/icons/black-txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/icons/black-unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/icons/internet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/icons/music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/icons/notebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/icons/video.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/icons/word.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/icons/xml.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/icons/zip.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/Global/Widgets/detail_pop_menu.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/Global/Widgets/folders_grid_view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/Models/notification_file.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/Models/web_file.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/Screens/reminder_list_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/backup/backup-folder_grid.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/backup/backup-folder_list.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/backup/backup-folder_recent.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/backup/backup-homescreen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/backup_dropdown.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/utils/directory_utils.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/com/techmates/filemanager/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/com/techmates/filemanager/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/launch_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/icons/admin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/icons/apk-file.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/icons/audio-file.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/icons/excel-file.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/icons/file.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/icons/folder_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/icons/image-file.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/icons/pdf-file.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/icons/unknown-file.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/icons/video-file.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/icons/zip-file.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Global/Widgets/drawer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Global/Widgets/drawer.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Global/Widgets/folders_list_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Global/Widgets/folders_list_view.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Global/Widgets/folders_widget.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Global/Widgets/recent_files.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Global/Widgets/recent_files.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Global/Widgets/search_widget.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Global/global.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Global/global.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Global/global_widgets.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Global/global_widgets.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/LocalDatabase/database.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/LocalDatabase/database.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Models/file.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Models/folder.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Models/recent_file.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Models/recent_file.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Screens/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Screens/home_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Screens/reminder_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Screens/reminder_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/notifiers/core.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/notifiers/core.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/notifiers/google_sign_in_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/notifiers/google_sign_in_provider.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/utils/google_http_client.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/utils/googledrive.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/utils/googledrive.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../pubspec.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="23H1yEqc72hjRpa5v18QlhyWEaa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="512e8d08-15d6-4699-acae-fcec26b91562" name="Default Changelist" comment="" />
+      <created>1641376451176</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641376451176</updated>
+    </task>
+    <servers />
+  </component>
+</project>

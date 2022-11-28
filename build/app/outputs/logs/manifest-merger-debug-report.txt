@@ -1,0 +1,1156 @@
+-- Merging decision tree log ---
+provider#androidx.work.impl.WorkManagerInitializer
+INJECTED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:76:8-80:34
+REJECTED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:31:9-37:35
+	android:authorities
+		INJECTED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml
+provider#androidx.core.content.FileProvider
+INJECTED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:82:8-92:19
+	android:authorities
+		INJECTED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:1:1-131:12
+INJECTED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:1:1-131:12
+INJECTED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:1:1-131:12
+INJECTED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:1:1-131:12
+MERGED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:1:1-131:12
+MERGED from [:shared_storage] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/shared_storage/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:file_picker] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:google_sign_in] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:device_info_plus] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/device_info_plus/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:home_widget] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/home_widget/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:open_file] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-24:12
+MERGED from [:url_launcher] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
+MERGED from [:webview_flutter_android] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/webview_flutter_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-28:12
+MERGED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-66:12
+MERGED from [:permission_handler] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:firebase_auth] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [androidx.databinding:viewbinding:4.1.3] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/319edae521ade606c561a0d613409126/jetified-viewbinding-4.1.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/f15e6d79a89af635128c9f4510a67e65/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-analytics:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/b6a3b9a80ff4a85f0f338527fbc99e40/jetified-firebase-analytics-19.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/4904ced2d135bd5a111c690bf616f474/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.work:work-runtime-ktx:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/9260b6b115a70c97affba57633756ba1/work-runtime-ktx-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/29b2ae862815aa78b3f8f6482c319b2d/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/a96230660c4839395fd302071a9602a2/appcompat-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/6c0bbfaa3298d43c273439e476f3b560/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.webkit:webkit:1.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/0a71b973c4a6cc7e27a4069aaf856b64/webkit-1.5.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ba41e25b9bffbe030d51f166638510ca/media-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:17:1-46:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/b031307f2ad38aa9e8474e9445d36c3b/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:17:1-83:12
+MERGED from [androidx.browser:browser:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/88e09b48e6ce0ef52bf0613f0b6b6172/browser-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/004c4a63eda175d5fb2d29cdb18755cd/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/6e7ea83668ecc5fa979c295237b677ea/jetified-play-services-measurement-sdk-19.0.1/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/afab87506b4519ba5cadbd525662c65c/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/a0bc8ecc13c8495e21fc8e07204af5a1/jetified-play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/028677428d95c1b6661efea8d1534998/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/491d3790ecc426be7c9d65708026bc71/vectordrawable-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:17:1-143:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/000ab04efb0898cd79f9546240402d1a/jetified-play-services-auth-16.0.1/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/56be72bc7c9ca9a5172985a6efd6f196/jetified-play-services-auth-base-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/73ba16fe5d43cb492b66a798830149a2/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/1ea4e85bea552dc7630a9a778ae47283/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/54e8e23848fe6b41cda64f541da91b66/jetified-play-services-base-17.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/38cda56793cf46e52e868677e43e09bc/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/64e48c784c3ae2bf69fdab511c40cf32/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/c70309bf63fd4e638da733f682ec0d8e/jetified-firebase-installations-17.0.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/4c2c2dd8a9b2a53fa12297413163ca1d/jetified-firebase-common-20.0.0/AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/1ecf36ff06e2aee6495de099feebd559/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/cb5c34a31b0fcfeed689a11eb17c2850/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7f18ce50e980abca65895205c5e7e529/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/f0bc9f9b86951bd4acc381c096dfa362/jetified-play-services-measurement-sdk-api-19.0.1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/c3bc1c4de1b3099080920eef882f3ebc/jetified-play-services-measurement-base-19.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/3818965915192321a9e5bc6bf399b925/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/eba2479de19ec34de6ce89ad6fb2644e/jetified-play-services-basement-17.1.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/32c89fe7d25a384da51d1eaac74b1c5b/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/a9a192774b0286b55f34da4459374246/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/58d9c8734e2e16bed957eee7b1d00ce6/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/97083be7388a5eff74a8270799404a80/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/3c28fe46bc39301377ee9c4d740fd19c/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/6dcf8d5b122c97a30ea49a908ffe2d84/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/06b5233bb8c780ba6babd589f98ac654/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/f9f1204e181e0795703f1a9bd9d2de60/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/8027fe760cde5a8351ad69ea9ebba18d/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/57d66a539940f18b64ccbc9f14438467/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.7.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/f089c2bc82d9a77d8987b3714579e2c8/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.documentfile:documentfile:1.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/a37f3f3da51a7ab02557af831b2051de/documentfile-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/dbe8ce2a16fc5b0d9bae2e15077b5f0a/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/22fbd0d87978cadba7896ab2080d57a6/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/528e33bebc39cf73201b543280621dbd/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.2.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/c491393b53411a4bb58287f9b71e59c2/lifecycle-reactivestreams-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/15d216925e95a3061ee97c08771c8730/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/3807b6c3d5159337f3f9cb6c550a5b75/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/214bd2c109360d51e279a2d0fa2f45c2/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/044604c31d2619a9c9f4637a7a900146/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/848e928077a240a165dbc62faff53a42/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/43d406306edfac1831a2694a74736235/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/2fdbe7677a1370dba217397e0373a873/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/8896ebd72e39bee28b750980f8b949b9/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/0ff109ebbf43f2a94ca8815ed81c5862/room-runtime-2.2.5/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/68e50e893cbb185649a85376c53281d1/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/aee34d661343ed0f0cb0a6bea9de9e6e/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/d88f88cc24f6015861591bc8770d9ec5/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.print:print:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/52abe2f7a96af310a85f195766ec9829/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/51d2ee0185ec9f81e23b4ee59e710edf/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/d63f4aa8f6cf40dd5d773893c82ba325/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7642c85d66f8a85218007ade9bc286b7/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/b942575c9b8fb05d5a696ebf082dc155/jetified-threetenabp-1.2.3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.arturogutierrez:badges:1.0.5] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/2c24adebe233ee25eb8af51e990c93f0/jetified-badges-1.0.5/AndroidManifest.xml:2:1-20:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/eab6b41b075679b85be8604a960cb022/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/debug/AndroidManifest.xml:1:1-9:12
+INJECTED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/debug/AndroidManifest.xml:1:1-9:12
+INJECTED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/debug/AndroidManifest.xml:1:1-9:12
+	package
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:3:5-40
+		INJECTED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:1:1-131:12
+		INJECTED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:2:5-51
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:2:5-51
+	android:versionCode
+		INJECTED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:1:1-131:12
+		INJECTED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:1:11-69
+	tools:ignore
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:4:5-34
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:4:5-34
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:7:5-79
+MERGED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:7:5-79
+MERGED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:7:5-79
+MERGED from [:file_picker] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+MERGED from [:file_picker] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+MERGED from [:open_file] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-80
+MERGED from [:open_file] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:8:5-80
+MERGED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:8:5-80
+MERGED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.MANAGE_EXTERNAL_STORAGE
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:9:5-10:59
+	tools:ignore
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:10:29-57
+	android:name
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:9:22-79
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:11:5-77
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:28:5-77
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:28:5-77
+	android:name
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:11:22-74
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:12:5-80
+MERGED from [:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
+MERGED from [:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
+MERGED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-81
+MERGED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-81
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:27:5-81
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:12:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:13:5-66
+MERGED from [:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-66
+MERGED from [:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:13:22-63
+queries
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:16:5-21:15
+MERGED from [:file_picker] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-15:15
+MERGED from [:file_picker] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-15:15
+intent#action:name:android.intent.action.VIEW+data:scheme:https
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:17:9-20:18
+action#android.intent.action.VIEW
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:18:13-65
+	android:name
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:18:21-62
+data
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:19:13-44
+	android:scheme
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:19:19-41
+application
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:23:4-130:19
+MERGED from [:open_file] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-22:19
+MERGED from [:open_file] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-22:19
+MERGED from [:url_launcher] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
+MERGED from [:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-26:19
+MERGED from [:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-26:19
+MERGED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:19:5-64:19
+MERGED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:19:5-64:19
+MERGED from [:firebase_auth] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-analytics:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/b6a3b9a80ff4a85f0f338527fbc99e40/jetified-firebase-analytics-19.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/b6a3b9a80ff4a85f0f338527fbc99e40/jetified-firebase-analytics-19.0.1/AndroidManifest.xml:7:5-20
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/29b2ae862815aa78b3f8f6482c319b2d/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/29b2ae862815aa78b3f8f6482c319b2d/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/6e7ea83668ecc5fa979c295237b677ea/jetified-play-services-measurement-sdk-19.0.1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/6e7ea83668ecc5fa979c295237b677ea/jetified-play-services-measurement-sdk-19.0.1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/afab87506b4519ba5cadbd525662c65c/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/afab87506b4519ba5cadbd525662c65c/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/a0bc8ecc13c8495e21fc8e07204af5a1/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/a0bc8ecc13c8495e21fc8e07204af5a1/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:30:5-141:19
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:30:5-141:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/000ab04efb0898cd79f9546240402d1a/jetified-play-services-auth-16.0.1/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/000ab04efb0898cd79f9546240402d1a/jetified-play-services-auth-16.0.1/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/1ea4e85bea552dc7630a9a778ae47283/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/1ea4e85bea552dc7630a9a778ae47283/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/54e8e23848fe6b41cda64f541da91b66/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/54e8e23848fe6b41cda64f541da91b66/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/38cda56793cf46e52e868677e43e09bc/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/38cda56793cf46e52e868677e43e09bc/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/64e48c784c3ae2bf69fdab511c40cf32/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/64e48c784c3ae2bf69fdab511c40cf32/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/c70309bf63fd4e638da733f682ec0d8e/jetified-firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/c70309bf63fd4e638da733f682ec0d8e/jetified-firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/4c2c2dd8a9b2a53fa12297413163ca1d/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/4c2c2dd8a9b2a53fa12297413163ca1d/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/cb5c34a31b0fcfeed689a11eb17c2850/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/cb5c34a31b0fcfeed689a11eb17c2850/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7f18ce50e980abca65895205c5e7e529/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7f18ce50e980abca65895205c5e7e529/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/c3bc1c4de1b3099080920eef882f3ebc/jetified-play-services-measurement-base-19.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/c3bc1c4de1b3099080920eef882f3ebc/jetified-play-services-measurement-base-19.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/3818965915192321a9e5bc6bf399b925/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/3818965915192321a9e5bc6bf399b925/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/eba2479de19ec34de6ce89ad6fb2644e/jetified-play-services-basement-17.1.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/eba2479de19ec34de6ce89ad6fb2644e/jetified-play-services-basement-17.1.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.7.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/f089c2bc82d9a77d8987b3714579e2c8/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/f089c2bc82d9a77d8987b3714579e2c8/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/3807b6c3d5159337f3f9cb6c550a5b75/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/3807b6c3d5159337f3f9cb6c550a5b75/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/044604c31d2619a9c9f4637a7a900146/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/044604c31d2619a9c9f4637a7a900146/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/0ff109ebbf43f2a94ca8815ed81c5862/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/0ff109ebbf43f2a94ca8815ed81c5862/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/b942575c9b8fb05d5a696ebf082dc155/jetified-threetenabp-1.2.3/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/b942575c9b8fb05d5a696ebf082dc155/jetified-threetenabp-1.2.3/AndroidManifest.xml:7:5-20
+	android:requestLegacyExternalStorage
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:25:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/f089c2bc82d9a77d8987b3714579e2c8/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:24:9-37
+	android:icon
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:27:9-43
+	android:usesCleartextTraffic
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:26:9-44
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:29:8-36:19
+MERGED from [:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-25:20
+MERGED from [:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-25:20
+	android:exported
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:30:12-35
+		REJECTED from [:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+	tools:replace
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:31:12-44
+	android:name
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:29:18-106
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:32:12-35:28
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:33:16-78
+	android:name
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:33:24-75
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:34:16-83
+	android:name
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:34:24-80
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:37:8-162
+MERGED from [:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-15:40
+MERGED from [:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-15:40
+	android:exported
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:37:103-127
+		REJECTED from [:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+	tools:replace
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:37:128-160
+	android:name
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:37:18-102
+receiver#es.antonborri.home_widget.HomeWidgetBackgroundReceiver
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:42:8-48:19
+	android:exported
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:43:12-35
+	android:name
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:42:18-87
+intent-filter#action:name:es.antonborri.home_widget.action.BACKGROUND+action:name:es.antonborri.home_widget.action.LAUNCH
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:44:12-47:28
+action#es.antonborri.home_widget.action.LAUNCH
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:45:16-81
+	android:name
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:45:24-78
+action#es.antonborri.home_widget.action.BACKGROUND
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:46:16-85
+	android:name
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:46:24-82
+service#es.antonborri.home_widget.HomeWidgetBackgroundService
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:49:8-50:94
+	android:exported
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:50:69-92
+	android:permission
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:50:12-68
+	android:name
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:49:17-85
+receiver#com.techmates.filemanager.WidgetProvider
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:53:8-60:19
+	android:exported
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:54:12-35
+	android:name
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:53:18-47
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:55:12-57:28
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:56:16-83
+	android:name
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:56:24-80
+meta-data#android.appwidget.provider
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:58:12-59:54
+	android:resource
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:59:16-51
+	android:name
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:58:23-64
+service#com.techmates.filemanager.ServiceWidget
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:63:8-65:37
+	android:exported
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:65:12-35
+	android:permission
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:64:12-68
+	android:name
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:63:17-45
+service#me.carda.awesome_notifications.services.ForegroundService
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:68:8-74:18
+	android:enabled
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:70:12-34
+	android:exported
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:71:12-36
+	android:stopWithTask
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:72:12-39
+	android:foregroundServiceType
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:73:12-52
+	android:name
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:69:12-84
+activity#com.techmates.filemanager.MainActivity
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:94:9-124:20
+	android:launchMode
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:97:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:100:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:101:13-55
+	android:exported
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:96:13-36
+	android:configChanges
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:99:13-163
+	tools:targetApi
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:102:13-40
+	android:theme
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:98:13-47
+	android:name
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:95:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:107:13-110:17
+	android:resource
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:109:15-52
+	android:name
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:108:15-70
+meta-data#io.flutter.embedding.android.SplashScreenDrawable
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:116:13-119:17
+	android:resource
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:118:15-61
+	android:name
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:117:15-79
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:120:13-123:29
+action#android.intent.action.MAIN
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:121:17-68
+	android:name
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:121:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:122:17-76
+	android:name
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:122:27-74
+meta-data#flutterEmbedding
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:127:9-129:33
+	android:value
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:129:13-30
+	android:name
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:128:13-44
+uses-sdk
+INJECTED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml
+MERGED from [:shared_storage] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/shared_storage/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_storage] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/shared_storage/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:file_picker] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:file_picker] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:device_info_plus] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/device_info_plus/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:device_info_plus] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/device_info_plus/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:home_widget] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/home_widget/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:home_widget] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/home_widget/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:open_file] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:6:5-44
+MERGED from [:open_file] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:6:5-44
+MERGED from [:url_launcher] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:webview_flutter_android] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/webview_flutter_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:webview_flutter_android] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/webview_flutter_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:4.1.3] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/319edae521ade606c561a0d613409126/jetified-viewbinding-4.1.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.1.3] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/319edae521ade606c561a0d613409126/jetified-viewbinding-4.1.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/f15e6d79a89af635128c9f4510a67e65/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/f15e6d79a89af635128c9f4510a67e65/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-analytics:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/b6a3b9a80ff4a85f0f338527fbc99e40/jetified-firebase-analytics-19.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/b6a3b9a80ff4a85f0f338527fbc99e40/jetified-firebase-analytics-19.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/4904ced2d135bd5a111c690bf616f474/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/4904ced2d135bd5a111c690bf616f474/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.work:work-runtime-ktx:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/9260b6b115a70c97affba57633756ba1/work-runtime-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/9260b6b115a70c97affba57633756ba1/work-runtime-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/29b2ae862815aa78b3f8f6482c319b2d/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/29b2ae862815aa78b3f8f6482c319b2d/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/a96230660c4839395fd302071a9602a2/appcompat-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/a96230660c4839395fd302071a9602a2/appcompat-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/6c0bbfaa3298d43c273439e476f3b560/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/6c0bbfaa3298d43c273439e476f3b560/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/0a71b973c4a6cc7e27a4069aaf856b64/webkit-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/0a71b973c4a6cc7e27a4069aaf856b64/webkit-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ba41e25b9bffbe030d51f166638510ca/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ba41e25b9bffbe030d51f166638510ca/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/b031307f2ad38aa9e8474e9445d36c3b/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/b031307f2ad38aa9e8474e9445d36c3b/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/88e09b48e6ce0ef52bf0613f0b6b6172/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/88e09b48e6ce0ef52bf0613f0b6b6172/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/004c4a63eda175d5fb2d29cdb18755cd/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/004c4a63eda175d5fb2d29cdb18755cd/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/6e7ea83668ecc5fa979c295237b677ea/jetified-play-services-measurement-sdk-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/6e7ea83668ecc5fa979c295237b677ea/jetified-play-services-measurement-sdk-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/afab87506b4519ba5cadbd525662c65c/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/afab87506b4519ba5cadbd525662c65c/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/a0bc8ecc13c8495e21fc8e07204af5a1/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/a0bc8ecc13c8495e21fc8e07204af5a1/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/028677428d95c1b6661efea8d1534998/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/028677428d95c1b6661efea8d1534998/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/491d3790ecc426be7c9d65708026bc71/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/491d3790ecc426be7c9d65708026bc71/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/000ab04efb0898cd79f9546240402d1a/jetified-play-services-auth-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/000ab04efb0898cd79f9546240402d1a/jetified-play-services-auth-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/56be72bc7c9ca9a5172985a6efd6f196/jetified-play-services-auth-base-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/56be72bc7c9ca9a5172985a6efd6f196/jetified-play-services-auth-base-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/73ba16fe5d43cb492b66a798830149a2/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/73ba16fe5d43cb492b66a798830149a2/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/1ea4e85bea552dc7630a9a778ae47283/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/1ea4e85bea552dc7630a9a778ae47283/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/54e8e23848fe6b41cda64f541da91b66/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/54e8e23848fe6b41cda64f541da91b66/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/38cda56793cf46e52e868677e43e09bc/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/38cda56793cf46e52e868677e43e09bc/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/64e48c784c3ae2bf69fdab511c40cf32/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/64e48c784c3ae2bf69fdab511c40cf32/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/c70309bf63fd4e638da733f682ec0d8e/jetified-firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/c70309bf63fd4e638da733f682ec0d8e/jetified-firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/4c2c2dd8a9b2a53fa12297413163ca1d/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/4c2c2dd8a9b2a53fa12297413163ca1d/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/1ecf36ff06e2aee6495de099feebd559/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/1ecf36ff06e2aee6495de099feebd559/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/cb5c34a31b0fcfeed689a11eb17c2850/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/cb5c34a31b0fcfeed689a11eb17c2850/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7f18ce50e980abca65895205c5e7e529/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7f18ce50e980abca65895205c5e7e529/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/f0bc9f9b86951bd4acc381c096dfa362/jetified-play-services-measurement-sdk-api-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/f0bc9f9b86951bd4acc381c096dfa362/jetified-play-services-measurement-sdk-api-19.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/c3bc1c4de1b3099080920eef882f3ebc/jetified-play-services-measurement-base-19.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/c3bc1c4de1b3099080920eef882f3ebc/jetified-play-services-measurement-base-19.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/3818965915192321a9e5bc6bf399b925/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/3818965915192321a9e5bc6bf399b925/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/eba2479de19ec34de6ce89ad6fb2644e/jetified-play-services-basement-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/eba2479de19ec34de6ce89ad6fb2644e/jetified-play-services-basement-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/32c89fe7d25a384da51d1eaac74b1c5b/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/32c89fe7d25a384da51d1eaac74b1c5b/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/a9a192774b0286b55f34da4459374246/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/a9a192774b0286b55f34da4459374246/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/58d9c8734e2e16bed957eee7b1d00ce6/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/58d9c8734e2e16bed957eee7b1d00ce6/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/97083be7388a5eff74a8270799404a80/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/97083be7388a5eff74a8270799404a80/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/3c28fe46bc39301377ee9c4d740fd19c/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/3c28fe46bc39301377ee9c4d740fd19c/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/6dcf8d5b122c97a30ea49a908ffe2d84/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/6dcf8d5b122c97a30ea49a908ffe2d84/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/06b5233bb8c780ba6babd589f98ac654/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/06b5233bb8c780ba6babd589f98ac654/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/f9f1204e181e0795703f1a9bd9d2de60/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/f9f1204e181e0795703f1a9bd9d2de60/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/8027fe760cde5a8351ad69ea9ebba18d/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/8027fe760cde5a8351ad69ea9ebba18d/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/57d66a539940f18b64ccbc9f14438467/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/57d66a539940f18b64ccbc9f14438467/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.7.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/f089c2bc82d9a77d8987b3714579e2c8/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/f089c2bc82d9a77d8987b3714579e2c8/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/a37f3f3da51a7ab02557af831b2051de/documentfile-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/a37f3f3da51a7ab02557af831b2051de/documentfile-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/dbe8ce2a16fc5b0d9bae2e15077b5f0a/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/dbe8ce2a16fc5b0d9bae2e15077b5f0a/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/22fbd0d87978cadba7896ab2080d57a6/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/22fbd0d87978cadba7896ab2080d57a6/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/528e33bebc39cf73201b543280621dbd/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/528e33bebc39cf73201b543280621dbd/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.2.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/c491393b53411a4bb58287f9b71e59c2/lifecycle-reactivestreams-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.2.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/c491393b53411a4bb58287f9b71e59c2/lifecycle-reactivestreams-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/15d216925e95a3061ee97c08771c8730/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/15d216925e95a3061ee97c08771c8730/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/3807b6c3d5159337f3f9cb6c550a5b75/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/3807b6c3d5159337f3f9cb6c550a5b75/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/214bd2c109360d51e279a2d0fa2f45c2/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/214bd2c109360d51e279a2d0fa2f45c2/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/044604c31d2619a9c9f4637a7a900146/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/044604c31d2619a9c9f4637a7a900146/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/848e928077a240a165dbc62faff53a42/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/848e928077a240a165dbc62faff53a42/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/43d406306edfac1831a2694a74736235/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/43d406306edfac1831a2694a74736235/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/2fdbe7677a1370dba217397e0373a873/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/2fdbe7677a1370dba217397e0373a873/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/8896ebd72e39bee28b750980f8b949b9/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/8896ebd72e39bee28b750980f8b949b9/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/0ff109ebbf43f2a94ca8815ed81c5862/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/0ff109ebbf43f2a94ca8815ed81c5862/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/68e50e893cbb185649a85376c53281d1/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/68e50e893cbb185649a85376c53281d1/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/aee34d661343ed0f0cb0a6bea9de9e6e/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/aee34d661343ed0f0cb0a6bea9de9e6e/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/d88f88cc24f6015861591bc8770d9ec5/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/d88f88cc24f6015861591bc8770d9ec5/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.print:print:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/52abe2f7a96af310a85f195766ec9829/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/52abe2f7a96af310a85f195766ec9829/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/51d2ee0185ec9f81e23b4ee59e710edf/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/51d2ee0185ec9f81e23b4ee59e710edf/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/d63f4aa8f6cf40dd5d773893c82ba325/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/d63f4aa8f6cf40dd5d773893c82ba325/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7642c85d66f8a85218007ade9bc286b7/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7642c85d66f8a85218007ade9bc286b7/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/b942575c9b8fb05d5a696ebf082dc155/jetified-threetenabp-1.2.3/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/b942575c9b8fb05d5a696ebf082dc155/jetified-threetenabp-1.2.3/AndroidManifest.xml:5:5-44
+MERGED from [com.github.arturogutierrez:badges:1.0.5] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/2c24adebe233ee25eb8af51e990c93f0/jetified-badges-1.0.5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.arturogutierrez:badges:1.0.5] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/2c24adebe233ee25eb8af51e990c93f0/jetified-badges-1.0.5/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/eab6b41b075679b85be8604a960cb022/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/eab6b41b075679b85be8604a960cb022/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/debug/AndroidManifest.xml:8:5-66
+MERGED from [:google_sign_in] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [:google_sign_in] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/afab87506b4519ba5cadbd525662c65c/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/afab87506b4519ba5cadbd525662c65c/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/38cda56793cf46e52e868677e43e09bc/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/38cda56793cf46e52e868677e43e09bc/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/c70309bf63fd4e638da733f682ec0d8e/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/c70309bf63fd4e638da733f682ec0d8e/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/f0bc9f9b86951bd4acc381c096dfa362/jetified-play-services-measurement-sdk-api-19.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/f0bc9f9b86951bd4acc381c096dfa362/jetified-play-services-measurement-sdk-api-19.0.1/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/debug/AndroidManifest.xml:8:22-64
+intent#action:name:android.intent.action.GET_CONTENT+data:mimeType:*/*
+ADDED from [:file_picker] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-14:18
+action#android.intent.action.GET_CONTENT
+ADDED from [:file_picker] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-72
+	android:name
+		ADDED from [:file_picker] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:21-69
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from [:open_file] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-83
+	android:name
+		ADDED from [:open_file] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-80
+provider#com.crazecoder.openfile.FileProvider
+ADDED from [:open_file] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-21:20
+	android:grantUriPermissions
+		ADDED from [:open_file] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:open_file] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-88
+	android:exported
+		ADDED from [:open_file] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+	tools:replace
+		ADDED from [:open_file] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-48
+	android:name
+		ADDED from [:open_file] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-64
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:open_file] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-20:53
+	android:resource
+		ADDED from [:open_file] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-50
+	android:name
+		ADDED from [:open_file] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-67
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+uses-permission#android.permission.USE_FULL_SCREEN_INTENT
+ADDED from [:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from [:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-76
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-24:29
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:22:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:23:17-82
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:23:25-79
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-86
+MERGED from [com.github.arturogutierrez:badges:1.0.5] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/2c24adebe233ee25eb8af51e990c93f0/jetified-badges-1.0.5/AndroidManifest.xml:10:5-86
+MERGED from [com.github.arturogutierrez:badges:1.0.5] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/2c24adebe233ee25eb8af51e990c93f0/jetified-badges-1.0.5/AndroidManifest.xml:10:5-86
+	android:name
+		ADDED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-87
+MERGED from [com.github.arturogutierrez:badges:1.0.5] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/2c24adebe233ee25eb8af51e990c93f0/jetified-badges-1.0.5/AndroidManifest.xml:11:5-87
+MERGED from [com.github.arturogutierrez:badges:1.0.5] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/2c24adebe233ee25eb8af51e990c93f0/jetified-badges-1.0.5/AndroidManifest.xml:11:5-87
+	android:name
+		ADDED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-84
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-88
+MERGED from [com.github.arturogutierrez:badges:1.0.5] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/2c24adebe233ee25eb8af51e990c93f0/jetified-badges-1.0.5/AndroidManifest.xml:14:5-88
+MERGED from [com.github.arturogutierrez:badges:1.0.5] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/2c24adebe233ee25eb8af51e990c93f0/jetified-badges-1.0.5/AndroidManifest.xml:14:5-88
+	android:name
+		ADDED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-85
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-81
+MERGED from [com.github.arturogutierrez:badges:1.0.5] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/2c24adebe233ee25eb8af51e990c93f0/jetified-badges-1.0.5/AndroidManifest.xml:17:5-81
+MERGED from [com.github.arturogutierrez:badges:1.0.5] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/2c24adebe233ee25eb8af51e990c93f0/jetified-badges-1.0.5/AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-83
+MERGED from [com.github.arturogutierrez:badges:1.0.5] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/2c24adebe233ee25eb8af51e990c93f0/jetified-badges-1.0.5/AndroidManifest.xml:18:5-83
+MERGED from [com.github.arturogutierrez:badges:1.0.5] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/2c24adebe233ee25eb8af51e990c93f0/jetified-badges-1.0.5/AndroidManifest.xml:18:5-83
+	android:name
+		ADDED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:16:22-80
+receiver#me.carda.awesome_notifications.notifications.broadcastReceivers.DismissedNotificationReceiver
+ADDED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:41:9-130
+	android:name
+		ADDED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:41:19-127
+receiver#me.carda.awesome_notifications.notifications.broadcastReceivers.ScheduledNotificationReceiver
+ADDED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:42:9-130
+	android:name
+		ADDED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:42:19-127
+receiver#me.carda.awesome_notifications.notifications.broadcastReceivers.KeepOnTopActionReceiver
+ADDED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:43:9-124
+	android:name
+		ADDED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:43:19-121
+receiver#me.carda.awesome_notifications.notifications.broadcastReceivers.RefreshNotificationBootReceiver
+ADDED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:44:9-56:20
+	android:exported
+		ADDED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:45:13-123
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.LOCKED_BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON+category:name:android.intent.category.DEFAULT
+ADDED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:47:13-55:29
+category#android.intent.category.DEFAULT
+ADDED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:48:17-76
+	android:name
+		ADDED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:48:27-73
+action#android.intent.action.LOCKED_BOOT_COMPLETED
+ADDED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:51:17-86
+	android:name
+		ADDED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:51:25-83
+receiver#androidx.media.session.MediaButtonReceiver
+ADDED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:57:9-63:20
+	android:exported
+		ADDED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:59:13-37
+	android:name
+		ADDED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:58:13-70
+intent-filter#action:name:android.intent.action.MEDIA_BUTTON
+ADDED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:60:13-62:29
+action#android.intent.action.MEDIA_BUTTON
+ADDED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:61:17-77
+	android:name
+		ADDED from [:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:61:25-74
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_auth] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/38cda56793cf46e52e868677e43e09bc/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/38cda56793cf46e52e868677e43e09bc/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/c70309bf63fd4e638da733f682ec0d8e/jetified-firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/c70309bf63fd4e638da733f682ec0d8e/jetified-firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/4c2c2dd8a9b2a53fa12297413163ca1d/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/4c2c2dd8a9b2a53fa12297413163ca1d/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/4c2c2dd8a9b2a53fa12297413163ca1d/jetified-firebase-common-20.0.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/4c2c2dd8a9b2a53fa12297413163ca1d/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [:firebase_auth] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
+ADDED from [:firebase_auth] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_auth] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_auth] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/29b2ae862815aa78b3f8f6482c319b2d/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/29b2ae862815aa78b3f8f6482c319b2d/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/29b2ae862815aa78b3f8f6482c319b2d/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/29b2ae862815aa78b3f8f6482c319b2d/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/29b2ae862815aa78b3f8f6482c319b2d/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/29b2ae862815aa78b3f8f6482c319b2d/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/afab87506b4519ba5cadbd525662c65c/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/afab87506b4519ba5cadbd525662c65c/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:24:5-79
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:26:5-79
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/38cda56793cf46e52e868677e43e09bc/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/38cda56793cf46e52e868677e43e09bc/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/c70309bf63fd4e638da733f682ec0d8e/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/c70309bf63fd4e638da733f682ec0d8e/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/f0bc9f9b86951bd4acc381c096dfa362/jetified-play-services-measurement-sdk-api-19.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/f0bc9f9b86951bd4acc381c096dfa362/jetified-play-services-measurement-sdk-api-19.0.1/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:24:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/afab87506b4519ba5cadbd525662c65c/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/afab87506b4519ba5cadbd525662c65c/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:25:5-68
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:25:5-68
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/38cda56793cf46e52e868677e43e09bc/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/38cda56793cf46e52e868677e43e09bc/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/f0bc9f9b86951bd4acc381c096dfa362/jetified-play-services-measurement-sdk-api-19.0.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/f0bc9f9b86951bd4acc381c096dfa362/jetified-play-services-measurement-sdk-api-19.0.1/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:25:22-65
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/afab87506b4519ba5cadbd525662c65c/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/afab87506b4519ba5cadbd525662c65c/jetified-play-services-measurement-impl-19.0.1/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:40:13-87
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+service#com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+	android:enabled
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+intent-filter#action:name:com.google.firebase.auth.api.gms.service.START+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+action#com.google.firebase.auth.api.gms.service.START
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:39:9-44:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:42:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:43:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:44:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:41:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:40:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:45:9-51:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:48:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:49:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:50:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:51:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:47:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:46:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:52:9-57:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:55:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:56:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:57:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:54:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:53:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:59:9-64:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:62:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:63:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:64:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:61:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:60:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:65:9-75:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:68:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:69:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:70:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:67:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:66:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:71:13-74:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:72:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:72:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:73:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:73:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:76:9-86:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:79:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:80:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:81:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:78:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:77:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:82:13-85:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:83:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:83:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:84:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:84:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:87:9-97:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:90:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:91:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:92:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:89:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:88:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:93:13-96:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:94:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:94:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:95:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:95:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:98:9-107:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:101:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:102:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:103:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:100:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:99:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:104:13-106:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:105:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:105:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:108:9-119:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:111:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:112:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:113:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:110:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:109:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:114:13-118:29
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:116:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:116:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:117:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:117:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:120:9-129:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:123:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:124:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:125:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:122:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:121:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:126:13-128:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:127:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:127:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:130:9-140:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:133:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:134:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:135:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:136:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:132:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:131:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:137:13-139:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:138:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:138:25-85
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/000ab04efb0898cd79f9546240402d1a/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/000ab04efb0898cd79f9546240402d1a/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/000ab04efb0898cd79f9546240402d1a/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/000ab04efb0898cd79f9546240402d1a/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/000ab04efb0898cd79f9546240402d1a/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/000ab04efb0898cd79f9546240402d1a/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/000ab04efb0898cd79f9546240402d1a/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/000ab04efb0898cd79f9546240402d1a/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/000ab04efb0898cd79f9546240402d1a/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/54e8e23848fe6b41cda64f541da91b66/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/54e8e23848fe6b41cda64f541da91b66/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/54e8e23848fe6b41cda64f541da91b66/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/54e8e23848fe6b41cda64f541da91b66/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/38cda56793cf46e52e868677e43e09bc/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/38cda56793cf46e52e868677e43e09bc/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/38cda56793cf46e52e868677e43e09bc/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:31:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/c70309bf63fd4e638da733f682ec0d8e/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/c70309bf63fd4e638da733f682ec0d8e/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/c70309bf63fd4e638da733f682ec0d8e/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/4c2c2dd8a9b2a53fa12297413163ca1d/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/4c2c2dd8a9b2a53fa12297413163ca1d/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/4c2c2dd8a9b2a53fa12297413163ca1d/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/4c2c2dd8a9b2a53fa12297413163ca1d/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/4c2c2dd8a9b2a53fa12297413163ca1d/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/4c2c2dd8a9b2a53fa12297413163ca1d/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/eba2479de19ec34de6ce89ad6fb2644e/jetified-play-services-basement-17.1.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/eba2479de19ec34de6ce89ad6fb2644e/jetified-play-services-basement-17.1.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/eba2479de19ec34de6ce89ad6fb2644e/jetified-play-services-basement-17.1.0/AndroidManifest.xml:24:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/3807b6c3d5159337f3f9cb6c550a5b75/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/3807b6c3d5159337f3f9cb6c550a5b75/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/3807b6c3d5159337f3f9cb6c550a5b75/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/3807b6c3d5159337f3f9cb6c550a5b75/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/3807b6c3d5159337f3f9cb6c550a5b75/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/0ff109ebbf43f2a94ca8815ed81c5862/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/0ff109ebbf43f2a94ca8815ed81c5862/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/0ff109ebbf43f2a94ca8815ed81c5862/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/0ff109ebbf43f2a94ca8815ed81c5862/room-runtime-2.2.5/AndroidManifest.xml:26:13-74

@@ -1,0 +1,816 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.techmates.filemanager"
+4    android:versionCode="18"
+5    android:versionName="1.0.16" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:7:5-79
+14-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:7:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:8:5-80
+15-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:8:22-78
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/debug/AndroidManifest.xml:8:5-66
+16-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/debug/AndroidManifest.xml:8:22-64
+17    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+17-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:9:5-10:59
+17-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:9:22-79
+18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+18-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:11:5-77
+18-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:11:22-74
+19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+19-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:12:5-80
+19-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:12:22-78
+20    <uses-permission android:name="android.permission.VIBRATE" />
+20-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:13:5-66
+20-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:13:22-63
+21
+22    <queries>
+22-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:16:5-21:15
+23        <intent>
+23-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:17:9-20:18
+24            <action android:name="android.intent.action.VIEW" />
+24-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:18:13-65
+24-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:18:21-62
+25
+26            <data android:scheme="https" />
+26-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:19:13-44
+26-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:19:19-41
+27        </intent>
+28        <intent>
+28-->[:file_picker] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-14:18
+29            <action android:name="android.intent.action.GET_CONTENT" />
+29-->[:file_picker] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-72
+29-->[:file_picker] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:21-69
+30
+31            <data android:mimeType="*/*" />
+31-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:19:13-44
+32        </intent>
+33    </queries>
+34
+35    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+35-->[:open_file] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-83
+35-->[:open_file] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-80
+36    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+36-->[:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-81
+36-->[:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-78
+37    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" /> <!-- Samsung Badge -->
+37-->[:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-79
+37-->[:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-76
+38    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+38-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-86
+38-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-83
+39    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- Sony Badge -->
+39-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-87
+39-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-84
+40    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" /> <!-- HTC Badge -->
+40-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-88
+40-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-85
+41    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+41-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-81
+41-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-78
+42    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" />
+42-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-83
+42-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:16:22-80
+43    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+43-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:24:5-79
+43-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:24:22-76
+44    <uses-permission android:name="android.permission.WAKE_LOCK" />
+44-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:25:5-68
+44-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:25:22-65
+45    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+45-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:26:5-110
+45-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:26:22-107
+46
+47    <application
+47-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:23:4-130:19
+48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+48-->[androidx.core:core:1.7.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/f089c2bc82d9a77d8987b3714579e2c8/core-1.7.0/AndroidManifest.xml:24:18-86
+49        android:debuggable="true"
+50        android:extractNativeLibs="false"
+51        android:icon="@mipmap/ic_launcher"
+51-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:27:9-43
+52        android:label="Akshar Notes"
+52-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:24:9-37
+53        android:requestLegacyExternalStorage="true"
+53-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:25:9-52
+54        android:usesCleartextTraffic="true" >
+54-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:26:9-44
+55        <receiver
+55-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:29:8-36:19
+56            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+56-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:29:18-106
+57            android:exported="true" >
+57-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:30:12-35
+58            <intent-filter>
+58-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:32:12-35:28
+59                <action android:name="android.intent.action.BOOT_COMPLETED" />
+59-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:33:16-78
+59-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:33:24-75
+60                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+60-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:34:16-83
+60-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:34:24-80
+61            </intent-filter>
+62            <intent-filter>
+62-->[:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-24:29
+63                <action android:name="android.intent.action.BOOT_COMPLETED" />
+63-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:33:16-78
+63-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:33:24-75
+64                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+64-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:34:16-83
+64-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:34:24-80
+65                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+65-->[:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:22:17-82
+65-->[:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:22:25-79
+66                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+66-->[:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:23:17-82
+66-->[:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:23:25-79
+67            </intent-filter>
+68        </receiver>
+69        <receiver
+69-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:37:8-162
+70            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+70-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:37:18-102
+71            android:exported="false" />
+71-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:37:103-127
+72
+73        <!-- if receiver have at least one <intent-filter> then android:exported="true" Otherwise it is false -->
+74
+75
+76        <!-- for lock screen widget -->
+77        <receiver
+77-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:42:8-48:19
+78            android:name="es.antonborri.home_widget.HomeWidgetBackgroundReceiver"
+78-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:42:18-87
+79            android:exported="true" >
+79-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:43:12-35
+80            <intent-filter>
+80-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:44:12-47:28
+81                <action android:name="es.antonborri.home_widget.action.LAUNCH" />
+81-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:45:16-81
+81-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:45:24-78
+82                <action android:name="es.antonborri.home_widget.action.BACKGROUND" />
+82-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:46:16-85
+82-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:46:24-82
+83            </intent-filter>
+84        </receiver>
+85
+86        <service
+86-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:49:8-50:94
+87            android:name="es.antonborri.home_widget.HomeWidgetBackgroundService"
+87-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:49:17-85
+88            android:exported="true"
+88-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:50:69-92
+89            android:permission="android.permission.BIND_JOB_SERVICE" />
+89-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:50:12-68
+90
+91        <!-- for lock screen widget -->
+92        <receiver
+92-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:53:8-60:19
+93            android:name="com.techmates.filemanager.WidgetProvider"
+93-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:53:18-47
+94            android:exported="true" >
+94-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:54:12-35
+95            <intent-filter>
+95-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:55:12-57:28
+96                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+96-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:56:16-83
+96-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:56:24-80
+97            </intent-filter>
+98
+99            <meta-data
+99-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:58:12-59:54
+100                android:name="android.appwidget.provider"
+100-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:58:23-64
+101                android:resource="@xml/widget_info" />
+101-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:59:16-51
+102        </receiver>
+103
+104        <!-- for lock screen widget -->
+105        <service
+105-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:63:8-65:37
+106            android:name="com.techmates.filemanager.ServiceWidget"
+106-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:63:17-45
+107            android:exported="true"
+107-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:65:12-35
+108            android:permission="android.permission.BIND_REMOTEVIEWS" />
+108-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:64:12-68
+109        <service
+109-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:68:8-74:18
+110            android:name="me.carda.awesome_notifications.services.ForegroundService"
+110-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:69:12-84
+111            android:enabled="true"
+111-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:70:12-34
+112            android:exported="false"
+112-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:71:12-36
+113            android:foregroundServiceType="dataSync"
+113-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:73:12-52
+114            android:stopWithTask="true" >
+114-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:72:12-39
+115        </service>
+116
+117        <provider
+118            android:name="androidx.core.content.FileProvider"
+119            android:authorities="com.techmates.filemanager.fileProvider"
+120            android:exported="false"
+121            android:grantUriPermissions="true" >
+122            <meta-data
+122-->[:open_file] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-20:53
+123                android:name="android.support.FILE_PROVIDER_PATHS"
+123-->[:open_file] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-67
+124                android:resource="@xml/filepaths" />
+124-->[:open_file] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-50
+125        </provider>
+126
+127        <activity
+127-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:94:9-124:20
+128            android:name="com.techmates.filemanager.MainActivity"
+128-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:95:13-41
+129            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+129-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:99:13-163
+130            android:exported="true"
+130-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:96:13-36
+131            android:hardwareAccelerated="true"
+131-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:100:13-47
+132            android:launchMode="singleTop"
+132-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:97:13-43
+133            android:theme="@style/LaunchTheme"
+133-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:98:13-47
+134            android:windowSoftInputMode="adjustResize" >
+134-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:101:13-55
+135
+136            <!--
+137                 Specifies an Android theme to apply to this Activity as soon as
+138                 the Android process has started. This theme is visible to the user
+139                 while the Flutter UI initializes. After that, this theme continues
+140                 to determine the Window background behind the Flutter UI.
+141            -->
+142            <meta-data
+142-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:107:13-110:17
+143                android:name="io.flutter.embedding.android.NormalTheme"
+143-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:108:15-70
+144                android:resource="@style/NormalTheme" />
+144-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:109:15-52
+145            <!--
+146                 Displays an Android View that continues showing the launch screen
+147                 Drawable until Flutter paints its first frame, then this splash
+148                 screen fades out. A splash screen is useful to avoid any visual
+149                 gap between the end of Android's launch screen and the painting of
+150                 Flutter's first frame.
+151            -->
+152            <meta-data
+152-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:116:13-119:17
+153                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+153-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:117:15-79
+154                android:resource="@drawable/launch_background" />
+154-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:118:15-61
+155
+156            <intent-filter>
+156-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:120:13-123:29
+157                <action android:name="android.intent.action.MAIN" />
+157-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:121:17-68
+157-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:121:25-66
+158
+159                <category android:name="android.intent.category.LAUNCHER" />
+159-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:122:17-76
+159-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:122:27-74
+160            </intent-filter>
+161        </activity>
+162        <!--
+163             Don't delete the meta-data below.
+164             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+165        -->
+166        <meta-data
+166-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:127:9-129:33
+167            android:name="flutterEmbedding"
+167-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:128:13-44
+168            android:value="2" />
+168-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:129:13-30
+169
+170        <provider
+170-->[:open_file] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-21:20
+171            android:name="com.crazecoder.openfile.FileProvider"
+171-->[:open_file] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-64
+172            android:authorities="com.techmates.filemanager.fileProvider.com.crazecoder.openfile"
+172-->[:open_file] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-88
+173            android:exported="false"
+173-->[:open_file] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+174            android:grantUriPermissions="true" >
+174-->[:open_file] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+175            <meta-data
+175-->[:open_file] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-20:53
+176                android:name="android.support.FILE_PROVIDER_PATHS"
+176-->[:open_file] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-67
+177                android:resource="@xml/filepaths" />
+177-->[:open_file] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-50
+178        </provider>
+179
+180        <activity
+180-->[:url_launcher] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+181            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+181-->[:url_launcher] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+182            android:exported="false"
+182-->[:url_launcher] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+183            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+183-->[:url_launcher] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+184        <!--
+185        <service
+186            android:name=".services.firebase.FCMService"
+187            android:exported="false">
+188            <intent-filter>
+189                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+190            </intent-filter>
+191        </service>
+192
+193        <service
+194            android:name=".services.AutoCancelService"
+195            android:stopWithTask="true" />
+196
+197        <meta-data android:name="firebase_messaging_auto_init_enabled" android:value="true" />
+198
+199        <meta-data
+200            android:name="com.google.firebase.messaging.default_notification_channel_id"
+201            android:value="me.carda.awesome_notifications.firebase.background_channel"/>
+202        -->
+203        <receiver android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.DismissedNotificationReceiver" />
+203-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:41:9-130
+203-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:41:19-127
+204        <receiver android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.ScheduledNotificationReceiver" />
+204-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:42:9-130
+204-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:42:19-127
+205        <receiver android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.KeepOnTopActionReceiver" />
+205-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:43:9-124
+205-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:43:19-121
+206        <receiver
+206-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:44:9-56:20
+207            android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.RefreshNotificationBootReceiver"
+207-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:45:13-123
+208            android:exported="false" >
+208-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:46:13-37
+209            <intent-filter>
+209-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:47:13-55:29
+210                <category android:name="android.intent.category.DEFAULT" />
+210-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:48:17-76
+210-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:48:27-73
+211
+212                <action android:name="android.intent.action.BOOT_COMPLETED" />
+212-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:33:16-78
+212-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:33:24-75
+213                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+213-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:51:17-86
+213-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:51:25-83
+214                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+214-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:34:16-83
+214-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:34:24-80
+215                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+215-->[:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:22:17-82
+215-->[:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:22:25-79
+216                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+216-->[:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:23:17-82
+216-->[:flutter_local_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:23:25-79
+217            </intent-filter>
+218        </receiver>
+219        <receiver
+219-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:57:9-63:20
+220            android:name="androidx.media.session.MediaButtonReceiver"
+220-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:58:13-70
+221            android:exported="false" >
+221-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:59:13-37
+222            <intent-filter>
+222-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:60:13-62:29
+223                <action android:name="android.intent.action.MEDIA_BUTTON" />
+223-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:61:17-77
+223-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:61:25-74
+224            </intent-filter>
+225        </receiver>
+226
+227        <service
+227-->[:firebase_auth] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+228            android:name="com.google.firebase.components.ComponentDiscoveryService"
+228-->[:firebase_auth] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+229            android:directBootAware="true"
+229-->[com.google.firebase:firebase-common:20.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/4c2c2dd8a9b2a53fa12297413163ca1d/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+230            android:exported="false" >
+230-->[com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
+231            <meta-data
+231-->[:firebase_auth] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+232                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+232-->[:firebase_auth] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+233                android:value="com.google.firebase.components.ComponentRegistrar" />
+233-->[:firebase_auth] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+234            <meta-data
+234-->[:firebase_core] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+235                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+235-->[:firebase_core] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+236                android:value="com.google.firebase.components.ComponentRegistrar" />
+236-->[:firebase_core] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+237            <meta-data
+237-->[com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+238                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+238-->[com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+239                android:value="com.google.firebase.components.ComponentRegistrar" />
+239-->[com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+240            <meta-data
+240-->[com.google.android.gms:play-services-measurement-api:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/38cda56793cf46e52e868677e43e09bc/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:30:13-32:85
+241                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+241-->[com.google.android.gms:play-services-measurement-api:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/38cda56793cf46e52e868677e43e09bc/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:31:17-139
+242                android:value="com.google.firebase.components.ComponentRegistrar" />
+242-->[com.google.android.gms:play-services-measurement-api:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/38cda56793cf46e52e868677e43e09bc/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:32:17-82
+243            <meta-data
+243-->[com.google.firebase:firebase-installations:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/c70309bf63fd4e638da733f682ec0d8e/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+244                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+244-->[com.google.firebase:firebase-installations:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/c70309bf63fd4e638da733f682ec0d8e/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+245                android:value="com.google.firebase.components.ComponentRegistrar" />
+245-->[com.google.firebase:firebase-installations:17.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/c70309bf63fd4e638da733f682ec0d8e/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+246        </service>
+247
+248        <uses-library
+248-->[androidx.window:window:1.0.0-beta04] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/29b2ae862815aa78b3f8f6482c319b2d/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+249            android:name="androidx.window.extensions"
+249-->[androidx.window:window:1.0.0-beta04] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/29b2ae862815aa78b3f8f6482c319b2d/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+250            android:required="false" />
+250-->[androidx.window:window:1.0.0-beta04] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/29b2ae862815aa78b3f8f6482c319b2d/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+251        <uses-library
+251-->[androidx.window:window:1.0.0-beta04] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/29b2ae862815aa78b3f8f6482c319b2d/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+252            android:name="androidx.window.sidecar"
+252-->[androidx.window:window:1.0.0-beta04] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/29b2ae862815aa78b3f8f6482c319b2d/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+253            android:required="false" />
+253-->[androidx.window:window:1.0.0-beta04] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/29b2ae862815aa78b3f8f6482c319b2d/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+254
+255        <receiver
+255-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:29:9-33:20
+256            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+256-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:30:13-85
+257            android:enabled="true"
+257-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:31:13-35
+258            android:exported="false" >
+258-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:32:13-37
+259        </receiver>
+260
+261        <service
+261-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:35:9-38:40
+262            android:name="com.google.android.gms.measurement.AppMeasurementService"
+262-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:36:13-84
+263            android:enabled="true"
+263-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:37:13-35
+264            android:exported="false" />
+264-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:38:13-37
+265        <service
+265-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:39:9-43:72
+266            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+266-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:40:13-87
+267            android:enabled="true"
+267-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:41:13-35
+268            android:exported="false"
+268-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:42:13-37
+269            android:permission="android.permission.BIND_JOB_SERVICE" />
+269-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/7fd594d3135a74584c2cba6d97671585/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:43:13-69
+270
+271        <activity
+271-->[com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+272            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+272-->[com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+273            android:excludeFromRecents="true"
+273-->[com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+274            android:exported="true"
+274-->[com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+275            android:launchMode="singleTask"
+275-->[com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+276            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+276-->[com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+277            <intent-filter>
+277-->[com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+278                <action android:name="android.intent.action.VIEW" />
+278-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:18:13-65
+278-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:18:21-62
+279
+280                <category android:name="android.intent.category.DEFAULT" />
+280-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:48:17-76
+280-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:48:27-73
+281                <category android:name="android.intent.category.BROWSABLE" />
+281-->[com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+281-->[com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+282
+283                <data
+283-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:19:13-44
+284                    android:host="firebase.auth"
+285                    android:path="/"
+286                    android:scheme="genericidp" />
+286-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:19:19-41
+287            </intent-filter>
+288        </activity>
+289        <activity
+289-->[com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+290            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+290-->[com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+291            android:excludeFromRecents="true"
+291-->[com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+292            android:exported="true"
+292-->[com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+293            android:launchMode="singleTask"
+293-->[com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+294            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+294-->[com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+295            <intent-filter>
+295-->[com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+296                <action android:name="android.intent.action.VIEW" />
+296-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:18:13-65
+296-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:18:21-62
+297
+298                <category android:name="android.intent.category.DEFAULT" />
+298-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:48:17-76
+298-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:48:27-73
+299                <category android:name="android.intent.category.BROWSABLE" />
+299-->[com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+299-->[com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+300
+301                <data
+301-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:19:13-44
+302                    android:host="firebase.auth"
+303                    android:path="/"
+304                    android:scheme="recaptcha" />
+304-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:19:19-41
+305            </intent-filter>
+306        </activity>
+307
+308        <service
+308-->[com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+309            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+309-->[com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+310            android:enabled="true"
+310-->[com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+311            android:exported="false" >
+311-->[com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+312            <intent-filter>
+312-->[com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+313                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+313-->[com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+313-->[com.google.firebase:firebase-auth:21.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/ceafc899a52e1b60ec3884c01f6ecbb1/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+314
+315                <category android:name="android.intent.category.DEFAULT" />
+315-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:48:17-76
+315-->[:awesome_notifications] /Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:48:27-73
+316            </intent-filter>
+317        </service>
+318        <service
+318-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:39:9-44:35
+319            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+319-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:40:13-88
+320            android:directBootAware="false"
+320-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:41:13-44
+321            android:enabled="@bool/enable_system_alarm_service_default"
+321-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:42:13-72
+322            android:exported="false" />
+322-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:43:13-37
+323        <service
+323-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:45:9-51:35
+324            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+324-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:46:13-84
+325            android:directBootAware="false"
+325-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:47:13-44
+326            android:enabled="@bool/enable_system_job_service_default"
+326-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:48:13-70
+327            android:exported="true"
+327-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:49:13-36
+328            android:permission="android.permission.BIND_JOB_SERVICE" />
+328-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:50:13-69
+329        <service
+329-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:52:9-57:35
+330            android:name="androidx.work.impl.foreground.SystemForegroundService"
+330-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:53:13-81
+331            android:directBootAware="false"
+331-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:54:13-44
+332            android:enabled="@bool/enable_system_foreground_service_default"
+332-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:55:13-77
+333            android:exported="false" />
+333-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:56:13-37
+334
+335        <receiver
+335-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:59:9-64:35
+336            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+336-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:60:13-88
+337            android:directBootAware="false"
+337-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:61:13-44
+338            android:enabled="true"
+338-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:62:13-35
+339            android:exported="false" />
+339-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:63:13-37
+340        <receiver
+340-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:65:9-75:20
+341            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+341-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:66:13-106
+342            android:directBootAware="false"
+342-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:67:13-44
+343            android:enabled="false"
+343-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:68:13-36
+344            android:exported="false" >
+344-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:69:13-37
+345            <intent-filter>
+345-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:71:13-74:29
+346                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+346-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:72:17-87
+346-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:72:25-84
+347                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+347-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:73:17-90
+347-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:73:25-87
+348            </intent-filter>
+349        </receiver>
+350        <receiver
+350-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:76:9-86:20
+351            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+351-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:77:13-104
+352            android:directBootAware="false"
+352-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:78:13-44
+353            android:enabled="false"
+353-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:79:13-36
+354            android:exported="false" >
+354-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:80:13-37
+355            <intent-filter>
+355-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:82:13-85:29
+356                <action android:name="android.intent.action.BATTERY_OKAY" />
+356-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:83:17-77
+356-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:83:25-74
+357                <action android:name="android.intent.action.BATTERY_LOW" />
+357-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:84:17-76
+357-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:84:25-73
+358            </intent-filter>
+359        </receiver>
+360        <receiver
+360-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:87:9-97:20
+361            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+361-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:88:13-104
+362            android:directBootAware="false"
+362-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:89:13-44
+363            android:enabled="false"
+363-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:90:13-36
+364            android:exported="false" >
+364-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:91:13-37
+365            <intent-filter>
+365-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:93:13-96:29
+366                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+366-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:94:17-83
+366-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:94:25-80
+367                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+367-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:95:17-82
+367-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:95:25-79
+368            </intent-filter>
+369        </receiver>
+370        <receiver
+370-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:98:9-107:20
+371            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+371-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:99:13-103
+372            android:directBootAware="false"
+372-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:100:13-44
+373            android:enabled="false"
+373-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:101:13-36
+374            android:exported="false" >
+374-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:102:13-37
+375            <intent-filter>
+375-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:104:13-106:29
+376                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+376-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:105:17-79
+376-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:105:25-76
+377            </intent-filter>
+378        </receiver>
+379        <receiver
+379-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:108:9-119:20
+380            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+380-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:109:13-88
+381            android:directBootAware="false"
+381-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:110:13-44
+382            android:enabled="false"
+382-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:111:13-36
+383            android:exported="false" >
+383-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:112:13-37
+384            <intent-filter>
+384-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:114:13-118:29
+385                <action android:name="android.intent.action.BOOT_COMPLETED" />
+385-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:33:16-78
+385-->/Users/onlymac/kevintechmates/AndroidStudioProjects/filemanager_app_git/filemanager_app/android/app/src/main/AndroidManifest.xml:33:24-75
+386                <action android:name="android.intent.action.TIME_SET" />
+386-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:116:17-73
+386-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:116:25-70
+387                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+387-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:117:17-81
+387-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:117:25-78
+388            </intent-filter>
+389        </receiver>
+390        <receiver
+390-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:120:9-129:20
+391            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+391-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:121:13-99
+392            android:directBootAware="false"
+392-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:122:13-44
+393            android:enabled="@bool/enable_system_alarm_service_default"
+393-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:123:13-72
+394            android:exported="false" >
+394-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:124:13-37
+395            <intent-filter>
+395-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:126:13-128:29
+396                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+396-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:127:17-98
+396-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:127:25-95
+397            </intent-filter>
+398        </receiver>
+399        <receiver
+399-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:130:9-140:20
+400            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+400-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:131:13-78
+401            android:directBootAware="false"
+401-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:132:13-44
+402            android:enabled="true"
+402-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:133:13-35
+403            android:exported="true"
+403-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:134:13-36
+404            android:permission="android.permission.DUMP" >
+404-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:135:13-57
+405            <intent-filter>
+405-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:137:13-139:29
+406                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+406-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:138:17-88
+406-->[androidx.work:work-runtime:2.5.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/174f9a5780ce64c7a42e3939ae14bdd0/work-runtime-2.5.0/AndroidManifest.xml:138:25-85
+407            </intent-filter>
+408        </receiver>
+409
+410        <activity
+410-->[com.google.android.gms:play-services-auth:16.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/000ab04efb0898cd79f9546240402d1a/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+411            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+411-->[com.google.android.gms:play-services-auth:16.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/000ab04efb0898cd79f9546240402d1a/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+412            android:excludeFromRecents="true"
+412-->[com.google.android.gms:play-services-auth:16.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/000ab04efb0898cd79f9546240402d1a/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+413            android:exported="false"
+413-->[com.google.android.gms:play-services-auth:16.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/000ab04efb0898cd79f9546240402d1a/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+414            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+414-->[com.google.android.gms:play-services-auth:16.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/000ab04efb0898cd79f9546240402d1a/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+415        <!--
+416            Service handling Google Sign-In user revocation. For apps that do not integrate with
+417            Google Sign-In, this service will never be started.
+418        -->
+419        <service
+419-->[com.google.android.gms:play-services-auth:16.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/000ab04efb0898cd79f9546240402d1a/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+420            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+420-->[com.google.android.gms:play-services-auth:16.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/000ab04efb0898cd79f9546240402d1a/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+421            android:exported="true"
+421-->[com.google.android.gms:play-services-auth:16.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/000ab04efb0898cd79f9546240402d1a/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+422            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+422-->[com.google.android.gms:play-services-auth:16.0.1] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/000ab04efb0898cd79f9546240402d1a/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+423
+424        <activity
+424-->[com.google.android.gms:play-services-base:17.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/54e8e23848fe6b41cda64f541da91b66/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+425            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+425-->[com.google.android.gms:play-services-base:17.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/54e8e23848fe6b41cda64f541da91b66/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+426            android:exported="false"
+426-->[com.google.android.gms:play-services-base:17.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/54e8e23848fe6b41cda64f541da91b66/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+427            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+427-->[com.google.android.gms:play-services-base:17.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/54e8e23848fe6b41cda64f541da91b66/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+428
+429        <provider
+429-->[com.google.firebase:firebase-common:20.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/4c2c2dd8a9b2a53fa12297413163ca1d/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+430            android:name="com.google.firebase.provider.FirebaseInitProvider"
+430-->[com.google.firebase:firebase-common:20.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/4c2c2dd8a9b2a53fa12297413163ca1d/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+431            android:authorities="com.techmates.filemanager.firebaseinitprovider"
+431-->[com.google.firebase:firebase-common:20.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/4c2c2dd8a9b2a53fa12297413163ca1d/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+432            android:directBootAware="true"
+432-->[com.google.firebase:firebase-common:20.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/4c2c2dd8a9b2a53fa12297413163ca1d/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+433            android:exported="false"
+433-->[com.google.firebase:firebase-common:20.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/4c2c2dd8a9b2a53fa12297413163ca1d/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+434            android:initOrder="100" />
+434-->[com.google.firebase:firebase-common:20.0.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/4c2c2dd8a9b2a53fa12297413163ca1d/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+435
+436        <meta-data
+436-->[com.google.android.gms:play-services-basement:17.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/eba2479de19ec34de6ce89ad6fb2644e/jetified-play-services-basement-17.1.0/AndroidManifest.xml:23:9-25:69
+437            android:name="com.google.android.gms.version"
+437-->[com.google.android.gms:play-services-basement:17.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/eba2479de19ec34de6ce89ad6fb2644e/jetified-play-services-basement-17.1.0/AndroidManifest.xml:24:13-58
+438            android:value="@integer/google_play_services_version" />
+438-->[com.google.android.gms:play-services-basement:17.1.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/eba2479de19ec34de6ce89ad6fb2644e/jetified-play-services-basement-17.1.0/AndroidManifest.xml:25:13-66
+439
+440        <provider
+440-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/3807b6c3d5159337f3f9cb6c550a5b75/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+441            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+441-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/3807b6c3d5159337f3f9cb6c550a5b75/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+442            android:authorities="com.techmates.filemanager.lifecycle-process"
+442-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/3807b6c3d5159337f3f9cb6c550a5b75/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+443            android:exported="false"
+443-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/3807b6c3d5159337f3f9cb6c550a5b75/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+444            android:multiprocess="true" />
+444-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/3807b6c3d5159337f3f9cb6c550a5b75/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+445
+446        <service
+446-->[androidx.room:room-runtime:2.2.5] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/0ff109ebbf43f2a94ca8815ed81c5862/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+447            android:name="androidx.room.MultiInstanceInvalidationService"
+447-->[androidx.room:room-runtime:2.2.5] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/0ff109ebbf43f2a94ca8815ed81c5862/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+448            android:directBootAware="true"
+448-->[androidx.room:room-runtime:2.2.5] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/0ff109ebbf43f2a94ca8815ed81c5862/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+449            android:exported="false" />
+449-->[androidx.room:room-runtime:2.2.5] /Users/onlymac/.gradle/caches/transforms-2/files-2.1/0ff109ebbf43f2a94ca8815ed81c5862/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+450    </application>
+451
+452</manifest>
